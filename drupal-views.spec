@@ -43,3 +43,10 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %files
 %{_var}/www/drupal/modules/%{modname}
 %doc CHANGELOG.txt README.txt
+
+
+%changelog
+* Fri May 11 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.3.3-1
++ Revision: 798268
+- imported package drupal-views
+
